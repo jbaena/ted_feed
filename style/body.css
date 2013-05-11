@@ -1,0 +1,26 @@
+/* General Styles */
+a { text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+body { padding: 0.5em; }
+
+h1 { padding: 0; margin: 0; }
+
+/* Feed */
+.feed { padding: 1em; }
+.feedItem { margin: 0.5em 0; margin-top: -1px; padding: 0; background-color: #FFFFFF; }
+.feedItem.hide .content { display: none; }
+.feedItem>h1 { font-size: 1em; color: #FFFFFF; background-color: #0062CC; border: 0.5em solid #0062CC; height: 1.2em; overflow: hidden; }
+.feedItem>.content { padding: 0.5em; border: 0.2em solid #0062CC; }
+.feedItem .watchTalk { font-weight: bold; }
+.feedItem .datePublished { font-size: 0.75em; }
+.feedItem p { margin: 0.5em 0; }
+
+.feedItem:hover>h1 { cursor: pointer; background-color: #3F99FF; border-color: #3F99FF; }
+.feedItem:hover>.content { border-color: #3F99FF; }
+
+/* Media List */
+.mediaList { background-color: #EEEEEE; border: 1px solid #555555; padding: 0.5em; }
+.mediaList h1 { font-size: 1em; }
+.mediaList ul { margin: 0; padding: 0; }
+.mediaList li { list-style-type: none; }
